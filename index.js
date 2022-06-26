@@ -75,3 +75,5 @@ function calculatePayroll(records) {
     const reducer = (previousValue, currentValue) => previousValue + currentValue;
     return totalPay.reduce(reducer)
 } 
+
+
